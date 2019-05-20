@@ -1,0 +1,19 @@
+{
+  "name": "Infoboe",
+  "version": "1.0",
+  "description": "Busca en los boletines oficiales del estado",
+  "manifest_version": 2,
+  "icons": {
+    "72": "images/icon-72x72.png",
+    "96": "images/icon-96x96.png",
+    "384": "images/icon-384x384.png",
+    "128": "images/icon-128x128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "contextMenus"
+  ]
+}
